@@ -24,3 +24,9 @@ a {
 ul {
   list-style-type: none;
 }
+
+.container {
+  --main-space: 130px;
+  margin: 0 auto;
+  max-width: calc(100% - 2 * var(--main-space));
+}
