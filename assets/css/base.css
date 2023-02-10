@@ -30,3 +30,21 @@ ul {
   margin: 0 auto;
   max-width: calc(100% - 2 * var(--main-space));
 }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .container {
+    --main-space: 90px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .container {
+    --main-space: 30px;
+  }
+}
+
+@media (max-width: 739px) {
+  .container {
+    --main-space: 15px;
+  }
+}
